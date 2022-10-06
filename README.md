@@ -1,6 +1,6 @@
-# Location-of-EV-charging-stations
+# Placement-of-EV-charging-stations
 
-The aim of this project is exactly that of finding an optimal placement, in terms of location and quantity, of fast and slow charging stations within the parking lots of a urban environment. This is because, EVs suffer from driving range limitations compared to the traditional fossil-fuel-based vehicles. Users may need to charge their vehicle away from home and find a sufficient and convenient availability of public charging stations.
+The aim of this project is that of finding an optimal placement, in terms of location and quantity, of fast and slow charging stations within the parking lots of a urban environment. This is because, EVs suffer from driving range limitations compared to the traditional fossil-fuel-based vehicles. Users may need to charge their vehicle away from home and find a sufficient and convenient availability of public charging stations.
 
 ## Requirements
 
