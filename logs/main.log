@@ -1,0 +1,49 @@
+09:22:39 INFO: starting simulation...
+09:22:49 INFO: Getting data from instance...
+09:22:49 INFO: EVChargersOptimalPlacing
+09:22:49 INFO: Academic license - for non-commercial use only - expires 2021-09-01
+09:22:49 INFO: Using license file /home/escodebar98/gurobi.lic
+09:22:52 INFO: Parameter OutputFlag unchanged
+09:22:52 INFO:    Value: 1  Min: 0  Max: 1  Default: 1
+09:22:52 INFO: Changed value of parameter LogFile to ./logs/gurobi.log
+09:22:52 INFO:    Prev:   Default: 
+09:22:52 INFO: Warning: variables 200000 and 300000 have the same name "w[0,0,0]"
+09:22:52 INFO: Warning: constraint name "slot equipement constraint" has a space
+09:22:52 INFO: Warning: to let Gurobi read it back, use rlp format
+09:22:53 INFO: Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (linux64)
+09:22:53 INFO: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+09:22:53 INFO: Optimize a model with 54202 rows, 400250 columns and 295300 nonzeros
+09:22:53 INFO: Model fingerprint: 0x2faf5de9
+09:22:53 INFO: Variable types: 0 continuous, 400250 integer (0 binary)
+09:22:53 INFO: Coefficient statistics:
+09:22:53 INFO:   Matrix range     [1e+00, 5e+00]
+09:22:53 INFO:   Objective range  [3e-01, 3e+04]
+09:22:53 INFO:   Bounds range     [1e+00, 1e+00]
+09:22:53 INFO:   RHS range        [3e-01, 7e+01]
+09:22:53 INFO: Found heuristic solution: objective 1193.9000000
+09:22:54 INFO: Presolve removed 31599 rows and 348503 columns
+09:22:54 INFO: Presolve time: 0.99s
+09:22:54 INFO: Presolved: 22603 rows, 51747 columns, 171000 nonzeros
+09:22:54 INFO: Variable types: 0 continuous, 51747 integer (10025 binary)
+09:22:54 INFO: 
+09:22:54 INFO: Deterministic concurrent LP optimizer: primal and dual simplex
+09:22:54 INFO: Showing first log only...
+09:22:54 INFO: 
+09:22:54 INFO: Concurrent spin time: 0.02s
+09:22:54 INFO: 
+09:22:54 INFO: Solved with primal simplex
+09:22:54 INFO: 
+09:22:54 INFO: Root relaxation: cutoff, 16687 iterations, 0.20 seconds
+09:22:54 INFO: 
+09:22:54 INFO:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+09:22:54 INFO:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+09:22:54 INFO: 
+09:22:54 INFO:      0     0     cutoff    0      1193.90000 1193.90000  0.00%     -    1s
+09:22:54 INFO: 
+09:22:54 INFO: Explored 0 nodes (16687 simplex iterations) in 1.35 seconds
+09:22:54 INFO: Thread count was 4 (of 4 available processors)
+09:22:54 INFO: 
+09:22:54 INFO: Solution count 1: 1193.9 
+09:22:54 INFO: 
+09:22:54 INFO: Optimal solution found (tolerance 1.00e-04)
+09:22:54 INFO: Best objective 1.193900000000e+03, best bound 1.193900000000e+03, gap 0.0000%

@@ -1,0 +1,107 @@
+{
+	"beta1": 0.33,
+	"beta2": 0.33,
+	"beta3": 0.34,
+	"theta1": 1,
+	"theta2": 3,
+	"theta3": 5,
+	"E_prime": 10,
+	"E_2nd": 3,
+	"F_prime": 2000,
+	"F_2nd": 500,
+	"C_prime": 1000,
+	"C_2nd": 250,
+	"M": 7,
+	"M_prime": 70,
+	"M_2nd": 10,
+	"time_slots": 168,
+	"n_buildings": 20,
+	"n_parkingLots": 10,
+	"maxWalkingDistance": 500,
+	"n_scenarios": 20,
+	"max_distance_city": 2000,
+	"n_groups": 2000,
+	"RADIUS": 100,
+	"types": [
+		{
+			"class": 1,
+			"dwellTime": [
+				"short",
+				"medium"
+			],
+			"building": "first",
+			"chargingMode": "fast"
+		},
+		{
+			"class": 1,
+			"dwellTime": [
+				"long"
+			],
+			"building": "first",
+			"chargingMode": "slow"
+		},
+		{
+			"class": 2,
+			"dwellTime": [
+				"short"
+			],
+			"building": "first",
+			"chargingMode": "fast"
+		},
+		{
+			"class": 2,
+			"dwellTime": [
+				"medium",
+				"long"
+			],
+			"building": "first",
+			"chargingMode": "slow"
+		},
+		{
+			"class": 2,
+			"dwellTime": [
+				"short",
+				"medium"
+			],
+			"building": "second",
+			"chargingMode": "fast"
+		},
+		{
+			"class": 2,
+			"dwellTime": [
+				"long"
+			],
+			"building": "second",
+			"chargingMode": "slow"
+		},
+		{
+			"class": 3,
+			"dwellTime": [
+				"short"
+			],
+			"building": "second",
+			"chargingMode": "fast"
+		},
+		{
+			"class": 3,
+			"dwellTime": [
+				"medium",
+				"long"
+			],
+			"building": "second",
+			"chargingMode": "slow"
+		}
+	],
+	"classes": [
+		1,
+		2,
+		3
+	],
+	"charging_times": {
+		"short": 1,
+		"medium": 3,
+		"long": 5
+	},
+	"meanBuildingPopulation": 1000,
+	"varBuildingPopulation": 200
+}
